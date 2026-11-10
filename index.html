@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>工途 隐私政策</title>
+<title>工途差旅 隐私政策</title>
 <style>
   :root { color-scheme: light dark; }
   body { margin: 0; background: #f5f7fa; color: #1b2430;
@@ -15,8 +15,13 @@
   .meta { color: #5b6b80; font-size: 14px; }
   .card { background: #fff; border-radius: 14px; padding: 18px 20px; margin-top: 18px;
           box-shadow: 0 1px 2px rgba(0,0,0,.04); }
-  table { width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 15px; }
-  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #e6ebf2; }
+  table { width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 14px; table-layout: fixed; }
+  th, td { text-align: left; padding: 8px 8px; border-bottom: 1px solid #e6ebf2; word-break: break-word; overflow-wrap: anywhere; vertical-align: top; }
+  table.three th:nth-child(1), table.three td:nth-child(1) { width: 30%; }
+  table.three th:nth-child(2), table.three td:nth-child(2) { width: 36%; }
+  table.three th:nth-child(3), table.three td:nth-child(3) { width: 34%; }
+  table.two th:nth-child(1), table.two td:nth-child(1) { width: 40%; }
+  table.two th:nth-child(2), table.two td:nth-child(2) { width: 60%; }
   th { background: #f0f4fa; font-weight: 600; }
   code { background: #eef2f8; padding: 1px 5px; border-radius: 4px; font-size: 14px; }
   a { color: #2f6bd8; }
@@ -46,7 +51,7 @@
   </div>
 
   <h2>一、我们收集哪些信息</h2>
-  <p><strong>工途不收集、不上传、不共享任何个人信息。</strong></p>
+  <p><strong>工途差旅不收集、不上传、不共享任何个人信息。</strong></p>
   <ul>
     <li>本应用<strong>没有申请网络权限</strong>，从技术上无法向任何服务器发送数据。</li>
     <li>本应用<strong>没有账号体系</strong>，不需要注册或登录，不采集手机号、姓名、身份证等任何身份信息。</li>
@@ -69,7 +74,7 @@
 
   <h2>四、设备权限说明</h2>
   <p>本应用仅申请 1 项权限：</p>
-  <table>
+  <table class="three">
     <tr><th>权限</th><th>用途</th><th>是否可关闭</th></tr>
     <tr><td>振动（ohos.permission.VIBRATE）</td><td>按键、日期选择、保存等操作的触感反馈</td><td>系统未单独提供开关，关闭不影响功能使用</td></tr>
   </table>
@@ -86,7 +91,7 @@
   </ol>
 
   <h2>七、未成年人保护</h2>
-  <p>工途为差旅记账工具，不面向未成年人设计，不含社交、付费、广告功能。若未成年人在监护人指导下使用，数据同样只保存在本机，我们不会收集其任何信息。</p>
+  <p>工途差旅为差旅记账工具，不面向未成年人设计，不含社交、付费、广告功能。若未成年人在监护人指导下使用，数据同样只保存在本机，我们不会收集其任何信息。</p>
 
   <h2>八、你的权利</h2>
   <p>由于数据只保存在你的设备上，你可以直接完成以下操作，无需向我们申请：</p>
@@ -101,12 +106,12 @@
   <h2>十、联系我们</h2>
   <p>
     开发者：陈俊彦<br>
-    联系邮箱：<strong>请填写你的邮箱</strong><br>
+    联系邮箱：<strong>k_156ban@163.com</strong><br>
     （收到咨询后 15 个工作日内回复）
   </p>
 
   <h2>附：核对依据（供审核参考）</h2>
-  <table>
+  <table class="two">
     <tr><th>核对项</th><th>实际情况</th></tr>
     <tr><td>是否有网络权限</td><td>否（module.json5 中无 INTERNET 权限）</td></tr>
     <tr><td>是否有账号 / 登录</td><td>否</td></tr>
@@ -119,7 +124,7 @@
     <tr><td>数据外发路径</td><td>仅用户主动导出的文件</td></tr>
   </table>
 
-  <p class="meta" style="margin-top:28px">本页面为《工途 隐私政策》正式发布版本，内容与应用实际权限、数据行为一致。</p>
+  <p class="meta" style="margin-top:28px">本页面为《工途差旅 隐私政策》正式发布版本，内容与应用实际权限、数据行为一致。</p>
 
 </div>
 </body>
